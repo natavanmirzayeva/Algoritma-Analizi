@@ -1,0 +1,22 @@
+public class Pow {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static int power_for_x_62(int x)
+    {
+        int x1 = x*x*x;
+        int x2 = x1*x1;
+        int x3= x2*x2*x1;
+        int x4 = x3*x3*x;
+        int x5 = x4*x4;
+        
+        return x5*x4*x3*x2*x1;
+    }
+    
+    
+    public static void main(String[] args) {
+        System.out.println(power_for_x_62(2));
+    }
+    
+}
